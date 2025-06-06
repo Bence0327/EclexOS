@@ -1,0 +1,1 @@
+﻿https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9188/DiscordSetup.exe
