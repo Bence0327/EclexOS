@@ -1,1 +1,0 @@
-﻿winget install --id qBittorrent.qBittorrent --accept-package-agreements
