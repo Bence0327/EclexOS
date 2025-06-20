@@ -4,7 +4,7 @@ $xmlFile = "$downloadsFolder\Configuration.xml"
 $setupExe = "$downloadsFolder\setup.exe"
 
 # Példa RAW XML link (ezt cseréld majd ki a sajátodra)
-$xmlDownloadUrl = "https://raw.githubusercontent.com/username/repo/branch/path/to/Configuration.xml"
+$xmlDownloadUrl = "https://raw.githubusercontent.com/Bence0327/EclexOS/refs/heads/main/XML/OfficeConfiguration.xml"
 $setupDownloadUrl = "https://officecdn.microsoft.com/pr/wsus/setup.exe"
 
 # Mappa létrehozása, ha nem létezik

@@ -1,5 +1,5 @@
 # GitHub raw link to the uninstaller(not ready)
-$url = "https://raw.githubusercontent.com/FELHASZNALO/REPO/BRANCH/fajl.ps1"
+$url = "https://raw.githubusercontent.com/Bence0327/EclexOS/refs/heads/main/Scripts/New%20scripts(1.0)/Uninstallofficeactivation.ps1"
 
 # Célfájlnév az asztalon
 $filename = "I don't need Office activation.ps1"
