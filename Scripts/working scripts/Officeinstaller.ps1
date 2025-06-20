@@ -29,6 +29,30 @@ Start-Process -FilePath $setupExe -ArgumentList "/configure $xmlFile" -Wait
 # Clean up the downloaded files
 Remove-Item -Path $downloadsFolder -Recurse -Force
 
-Write-Host "Office (for personal use) successfully installed!"
-# Note: This script assumes that the XML configuration file is present in one of the drives. Using the custom ISOs, you have the XML file on the instalation pendrive.
-# You can find the XML file at the main\OFFICE folder.
+# Note: This script downloads the XML configuration file from my github. Also the installer will instal office in the system's language. If you want ot add more languages, you need to do that manually!
+# You can find the XML file at the main\XML\Officecnfiguration folder.
+
+
+# Office telepítés – GitHub RAW XML használatával
+$downloadsFolder = [System.IO.Path]::Combine($env:USERPROFILE, "Downloads", "Office")
+$xmlFile = "$downloadsFolder\Configuration.xml"
+$setupExe = "$downloadsFolder\setup.exe"
+
+# Példa RAW XML link (ezt cseréld majd ki a sajátodra)
+$xmlDownloadUrl = "https://raw.githubusercontent.com/username/repo/branch/path/to/Configuration.xml"
+$setupDownloadUrl = "https://officecdn.microsoft.com/pr/wsus/setup.exe"
+
+# Mappa létrehozása, ha nem létezik
+if (!(Test-Path -Path $downloadsFolder)) {
+    New-Item -ItemType Directory -Path $downloadsFolder | Out-Null
+}
+
+# Letöltés: Office setup és XML
+Invoke-WebRequest -Uri $setupDownloadUrl -OutFile $setupExe
+Invoke-WebRequest -Uri $xmlDownloadUrl -OutFile $xmlFile
+
+# Telepítés XML alapján
+Start-Process -FilePath $setupExe -ArgumentList "/configure `"$xmlFile`"" -Wait
+
+# Letöltött fájlok törlése
+Remove-Item -Path $downloadsFolder -Recurse -Force

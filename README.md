@@ -24,7 +24,7 @@
   * Comes preinstalled with many tools & features
   * Debloated Windows
   * Semi-automatic installation
-    * Drive formatting, <!--Language selection, -->computer name setup, local account creation, Wi-Fi configuration(if needed).
+    * Drive formatting, language selection, computer name setup, local account creation, Wi-Fi configuration(if needed).
   * Automatic Office & Windows activation
   * Deleted Windows crap.
 * **2. Gamer edition**
@@ -39,6 +39,8 @@
   * OS created for brand PCs & laptops
     * Recommended for laptops/PCs that are just used for school/work.
   * Good for laptops/PCs that just used for school/work.
+  * Fully automatic installation
+     *  Language selection, drive formatting, and Wi-Fi configuration only.
   * Debloated Windows with some good features.
   * Preinstalled web browser & Office(+Windows) with automatic activation.
 * **4. Server edition**
@@ -47,6 +49,8 @@
   * Minimalistic UI
   * Preinstalled with things you need to build a server
   * Works perfectly on both low- and high-end computers either
+  *  Fully automatic installation
+     *  Language selection, drive formatting, and Wi-Fi configuration only.
   * Automatic Windows activation
   * Comes with none of Microsoft’s crap
 
@@ -60,11 +64,11 @@
     * Deleted apps
       * Bing, Clipchamp, Cortana, Family, Handwriting, Maps, News, Office(installed later), Skype, Solitaire, Sticky Notes, To-do, Weather, Windows Fax & Scan, Wordpad
     * preinstalled apps
-      * Audacity, Aida64(stress test software), Brave, EA app, EGL, Git+Github desktop client, Handbrake(video converter), customized Office(Only in English & Hungarian), VSC, OBS studio, Roblox, Spotify(modded by SpotX), Steam, VLC, Teamviewer, (note that the following apps will only be installed on Win11 24H2 systems!) Discord, Gimp, Revo Uninstaller, Anydesk, Qbittorrent
+      * Audacity, Aida64(stress test software), Brave, EA app, EGL, Git+Github desktop client, Handbrake(video converter), customized Office(Only in English & Hungarian), VSC, OBS studio, Roblox, Spotify(modded by SpotX), Steam, VLC, Winrar, Teamviewer, (note that the following apps will only be installed on Win11 24H2 systems!) Discord, Gimp, Revo Uninstaller, Anydesk, Qbittorrent
   * Customisation
     * Comes with the best UI, Hidden search bar, All icons hidden, Widgets hidden, Long paths enabled, Automatic dark theme, Left aligned taskbar, Removed task view button, Classic context menu(Win 10 right click).
   * Installation
-    * Semi automated installer - You have to <!--select language, -->format the disks, give a computer name, create a local account, configure Wi-Fi.
+    * Semi automated installer - You have to select language, format the disks, give a computer name, create a local account, configure Wi-Fi.
   * Features
     * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows & Office activated automaticaly (Using HWID and Ohook).
     * More coming soon! (read more [at upcoming features](#Upcoming features))
@@ -77,11 +81,11 @@
     * Deleted apps
       * Bing, Clipchamp, Cortana, Family, Handwriting, Maps, News, Office(installed later), Power automate, Powershell ISE, Skype, Solitaire, Steps recorder, Sticky notes, To-do, Weather, Windows Fax & Scan, Wordpad
     * preinstalled apps
-      * Aida64(stress test software) Brave EA app, EGL, Office(only in English & Hungarian) OBS studio, Roblox, Spotify(modded by SpotX), Steam, Rockstargames launcher, VLC, (note that the following apps will only be installed on Win11 24H2 systems!) Discord, Revo Uninstaller, Qbittorrent
+      * Aida64(stress test software) Brave, EA app, EGL, Office(installed in system's language) OBS studio, Roblox, Spotify(modded by SpotX), Steam, Rockstargames launcher, VLC, Winrar, (note that the following apps will only be installed on Win11 24H2 systems!) Discord, Revo Uninstaller, Qbittorrent
   * Customisation
     * Comes with the best UI, Hidden search bar, All icons hidden, Widgets hidden, Long paths enabled, Automatic dark theme, Left aligned taskbar, Removed task view button, Classic context menu(Win 10 right click).
   * Installation
-    * Fully automated installer - You have to <!--select language and -->format the drives.
+    * Fully automated installer - You have to select language and format the drives.
   * Features
     * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows & Office activated automaticaly (Using HWID and Ohook).
     * More coming soon! (read more [at upcoming features](#Upcoming features))
@@ -94,7 +98,9 @@
     * Deleted apps
       * Bing, Clipchamp, Cortana, Family, Maps, News, Office(installed later), Power automate, Powershell ISE, Skype, Solitaire, Steps recorder, Sticky notes, To-do, Weather, Windows Fax & Scan, Wordpad, Xbox app
     * preinstalled apps
-      * Aida64(stress test software), Brave, Office(only in Enghlish & Hungarian) , Spotify (modded by SpotX), VLC, Revo uninstaller(note that Revo Uninstaller will only be installed on Win11 24H2 systems!)
+      * Aida64(stress test software), Brave, Office(installed in system's language), Spotify (modded by SpotX), VLC, Winrar, Revo uninstaller(note that Revo Uninstaller will only be installed on Win11 24H2 systems!)
+  * Installation
+    * Fully automated installer - You have to select language and format the drives.
   * Features
     * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows & Office activated automaticaly (Using HWID and Ohook).
     * More coming soon! (read more [at upcoming features](#Upcoming features))
@@ -109,7 +115,9 @@
     * Deleted apps
       * 3D viewer, Bing, Calculator, Camera, Clipchamp, Copilot, Cortana, Family, Handwriting, Mail&calendar, Maps, Math input panel, Mixed reality, Movies&TV, News, Notepad, Office(Onedrive can be instlalled manually), Outlook, Paint, Paint 3D, Photos, Powershell ISE, Skype, Solitaire, Steps Recorder, Snipping tool, Sticky notes, Teams, To-do, Voice recorder, Wallet, Weather, Windows Fax & Scan, Windows Hello, Wordpad, Xbox app, Phone link
     * preinstalled apps
-      * Aida64(stress test software), Brave, HAndbrake(video converter), Teamviewer, VLC, (note that the following apps will only be installed on Win11 24H2 systems!) Qbittorrent, Revo uninstaller, Anydesk,
+      * Aida64(stress test software), Brave, HAndbrake(video converter), Teamviewer, VLC, Winrar (note that the following apps will only be installed on Win11 24H2 systems!) Qbittorrent, Revo uninstaller, Anydesk
+  * Installation
+    * Fully automated installer - You have to select language and format the drives.
   * Features
     * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows is activated automaticaly (Using HWID).
     * More coming soon! (read more [at upcoming features](#Upcoming features))
@@ -120,14 +128,12 @@
 * Pre installed font: Poppins
 * Automatic uninstaller for Ohook
 * Imporved MAS activation
-* Multi language ISO-s
-* Custom-generated computer name
-* Pinned icons
-* Pinned widgets
+* Pinned icons - See more at **"Scripts\Non working scripts"**
 * Custom wallpaper
 * Disabled hibernation
 * Modified Screen turn off time
 * Custom power plan
+* Optimized installers
 ### Long term plans
 * Automatic Media creation tool made in powershell
 * Ad video
@@ -137,9 +143,7 @@
 <!--## Troubleshooting-->
 
 ## Known issues
-* Office only can be installed in 2 language
-* Windows only can be installed in 2 languages
-* ISOs don't work with Ventoy
+* If you modfiy an ISO, it won't work with Ventoy
 
 ## Disclaimer
 ### The installer automaticly accept the following Terms of Uses, Terms of conditions, EULA & Privacy Policies etc.

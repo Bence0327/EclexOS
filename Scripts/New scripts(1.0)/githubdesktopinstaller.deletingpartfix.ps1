@@ -25,7 +25,3 @@ while ($retry -lt $maxRetry) {
 }
 
 Stop-Process -Name "GitHubDesktop" -Force
-
-
-
-Write-Host "Github desktop client succesfully installed!"
