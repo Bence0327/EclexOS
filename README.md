@@ -5,7 +5,8 @@
 ### EclexOS is a small tool that makes Windows, faster, better, and stronger. With pre-made semi and fully automated installers it really helps to make Windows 11 a good choice for everyone without having a problem with customizing, installing or setting things up.
 
 ## It comes with features like
-* **4 different versions** - an OS for tech nerds, Gamers, Office PCs and Servers
+* **4 different versions** - an OS for tech nerds, Gamers, Office PCs and Home Server builders
+* * **Customizable installers using [a third party tool](https://schneegans.de/windows/unattend-generator/)**
 * **Semi and fully automated installers** - automatic Windows installation, automatimatically installed apps, features and settings
 * **Bypassed Windows 11 requirements** - Windows 10 support is coming to an end. Update your Windows easily, make Windows 11 fast even on a low end pc.
 * **Foolproof installation** - an ISO file made for every OS type, just use Rufus to format the drive and that's it!
@@ -13,8 +14,30 @@
 
 <!-- 3. pontként ide majd bejön a bemutató videó, ha az kész lesz valaha -->
 
-<!-- ## **Setup** - Create the installers and intsall Windows -->
-<!-- Ide ideírjuk a készítést, belefoglaljuk a windowsok lényegét, hivatkozunk a következő ppontra -->
+## **Setup** - Create the installers and intsall Windows
+### Setup for pre-made installers
+  * Download the desired system .xml from relases (A little help to choose which version do you need can be found [at editions](#editions---what-edition-do-you-need-find-out-here))
+  * Download the Media creation tool from [Microsoft's website](https://go.microsoft.com/fwlink/?linkid=2156295)
+  * Create a bootable pendrive using the tool
+  * When completed, copy the contents of the .xml file downloaded from relases to your installation media
+  * Boot from the pendrive, install the system and you're done! Thank you for using EclexOS!
+### Setup for customized installation
+  * **If you want to customize a pre-made installer**
+    * Download the desired system .xml from relases (A little help to choose which version do you need can be found [at editions](#editions---what-edition-do-you-need-find-out-here))
+    * Go to [https://schneegans.de/windows/unattend-generator/](https://schneegans.de/windows/unattend-generator/)
+    * Import the .xml on this page
+    * Customize your installation (a list of the installer scripts will can be found in a cvs file, will be avaiable in version 1.1)
+    * Download the Media creation tool from [Microsoft's website](https://go.microsoft.com/fwlink/?linkid=2156295)
+    * Create a bootable pendrive using the tool
+    * Donwload the .xml file and copy it to your installation media
+    * Boot from the pendrive, install the system and you're done! Thank you for using EclexOS! Even if it's a modified version!
+<!--  * **If you want to make your own installation and use the installer scripts only**
+    * Go to [https://schneegans.de/windows/unattend-generator/](https://schneegans.de/windows/unattend-generator/)
+    * Customize your installation (a list of the installer scripts will can be found in a cvs file) will be avaiable in version 1.0 stable
+    * Download the Media creation tool from [Microsoft's website](https://go.microsoft.com/fwlink/?linkid=2156295)
+    * Create a bootable pendrive using the tool
+    * Donwload the .xml file and copy it to your installation media
+    * Boot from the pendrive, install the system and you're done! Thank you for using EclexOS! Even if just a part of it! -->
 
 ## **Editions** - What edition do you need? Find out here!
 ### **1. Minimal information** - A simple explanation for the editions
@@ -43,7 +66,7 @@
      *  Language selection, drive formatting, and Wi-Fi configuration only.
   * Debloated Windows with some good features.
   * Preinstalled web browser & Office(+Windows) with automatic activation.
-* **4. Server edition**
+* **4. Homeserver edition**
   * OS made for servers with graphical interface while using windows
     * Recommended for refurbished Brand PCs that are being used for server tasks or for people who are beginners to use Linux or Windows server while they want their own server.
   * Minimalistic UI
@@ -71,12 +94,12 @@
     * Semi automated installer - You have to select language, format the disks, give a computer name, create a local account, configure Wi-Fi.
   * Features
     * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows & Office activated automaticaly (Using HWID and Ohook).
-    * More coming soon! (read more [at upcoming features](#Upcoming features))
+    * More coming soon! (read more [at upcoming features](#upcoming-features))
 * **2. Gamer edition**
   * Main info
     * OS created for both gaming & school work
       *  Recommended for console gamers who switched to PC and for gamers who don’t care, what is on their systems.
-      * <!-- Takes up around N/A GB of space-->
+      * Takes up around 50 GB of space
   * Apps
     * Deleted apps
       * Bing, Clipchamp, Cortana, Family, Handwriting, Maps, News, Office(installed later), Power automate, Powershell ISE, Skype, Solitaire, Steps recorder, Sticky notes, To-do, Weather, Windows Fax & Scan, Wordpad
@@ -88,12 +111,12 @@
     * Fully automated installer - You have to select language and format the drives.
   * Features
     * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows & Office activated automaticaly (Using HWID and Ohook).
-    * More coming soon! (read more [at upcoming features](#Upcoming features))
+    * More coming soon! (read more [at upcoming features](#upcoming-features))
 * **3. Brand edition**
   * Main info
     * OS created for brand PCs & laptops
       * Recommended for laptops/PCs that are just used for school/work.
-    * <!--Takes up around M/A GB of space-->
+    * Takes up around 46 GB of space
   * Apps
     * Deleted apps
       * Bing, Clipchamp, Cortana, Family, Maps, News, Office(installed later), Power automate, Powershell ISE, Skype, Solitaire, Steps recorder, Sticky notes, To-do, Weather, Windows Fax & Scan, Wordpad, Xbox app
@@ -103,14 +126,14 @@
     * Fully automated installer - You have to select language and format the drives.
   * Features
     * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows & Office activated automaticaly (Using HWID and Ohook).
-    * More coming soon! (read more [at upcoming features](#Upcoming features))
-* **4. Server edition**
+    * More coming soon! (read more [at upcoming features](#upcoming-features))
+* **4. Homeserver edition**
   * Main info
     * OS made for servers with graphical interface while using windows
       * Recommended for refurbished brand PCs that are being used for servers tasks or for people who are beginners and don't want to use Linux or Windows server and want their own server at the same time.
     * **NOTE**
       * This OS is not suitable for everyday use! This is a very tiny version of Windows and it'll give an almost unusable experience!
-    * <!--Takes up around M/A GB of space-->
+    * Takes up around 40 GB of space
   * Apps
     * Deleted apps
       * 3D viewer, Bing, Calculator, Camera, Clipchamp, Copilot, Cortana, Family, Handwriting, Mail&calendar, Maps, Math input panel, Mixed reality, Movies&TV, News, Notepad, Office(Onedrive can be instlalled manually), Outlook, Paint, Paint 3D, Photos, Powershell ISE, Skype, Solitaire, Steps Recorder, Snipping tool, Sticky notes, Teams, To-do, Voice recorder, Wallet, Weather, Windows Fax & Scan, Windows Hello, Wordpad, Xbox app, Phone link
@@ -120,30 +143,56 @@
     * Fully automated installer - You have to select language and format the drives.
   * Features
     * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows is activated automaticaly (Using HWID).
-    * More coming soon! (read more [at upcoming features](#Upcoming features))
+    * More coming soon! (read more [at upcoming features](#upcoming-features))
 
 ## Upcoming features
 ### Near future plans
-* Pre installed font: Montserrat 
-* Pre installed font: Poppins
-* Automatic uninstaller for Ohook
-* Imporved MAS activation
-* Pinned icons - See more at **"Scripts\Non working scripts"**
-* Custom wallpaper
-* Disabled hibernation
-* Modified Screen turn off time
-* Custom power plan
+* Custom wallpaper(coming in 1.0 stable)
 * Optimized installers
+* Vencord(Discord mod) installer
 ### Long term plans
 * Automatic Media creation tool made in powershell
 * Ad video
 * Automatic driver installer
-* Optional Plex installer for Server edition
+* Optional Plex and Jellyfin installer for Server edition
+* More apps preinstalled(waiting for suggestions)
+* Cutsom UI
+* Pinned icons - See more at **"Scripts\Non working scripts"**
+* Custom Start menu ikons - See more at **"Scripts\Non working scripts"**
+
+## **Changelog 1.0 beta **
+* [Montsterrat (font)](https://fonts.google.com/specimen/Montserrat)comes preinstalled
+* [Poppins (font)](https://fonts.google.com/specimen/Poppins) comes preinstalled
+* Optimized Ohook activation
+* Optimized HWID activation
+* Optional Spotify mod uninstaller
+* Optional Office activation uninstall
+* Winrar comes preinstalled
+* Updated .xml files
+* Multi langual installers
+* Multi langual office installer
+* Whole installer scripts now avaiable
+* Installation guide created
+* Updated README
+* Modified GitHub desktop installer
+* Git comes preinstalled
+* Disabled hibernation
+* Modified Screen turn off time
+* Custom power plan
+* Custom computer name created while installing(Server, Brand, and Gamer edition)
+* Picture downloader and modifier script for wallpaper setup created(haven't been used)
 
 <!--## Troubleshooting-->
 
 ## Known issues
-* If you modfiy an ISO, it won't work with Ventoy
+* If you modfiy an ISO, it won't work with Ventoy(using the xml with Ventoy haven't benn tested)
+* You have to choose the language, keyboard & region(autounattend.xml does not support automatic selection, it can't inport the installer's settings)
+* Some scripts haven't been signed
+
+## Used projects
+* To automate the windows installation with the .xml file, EclexOS uses [Christoph Schneegans's autounattend .xml generator](https://schneegans.de/windows/unattend-generator/)
+* To insatll and mod Spotify EclexOS uses [SpotX](https://github.com/SpotX-Official/SpotX)
+* To activate Office and Windows EclexOS uses [MAS activation scripts](https://github.com/massgravel/Microsoft-Activation-Scripts/tree/master). HWID activation is used for Windows , Ohook acivation is used for Office
 
 ## Disclaimer
 ### The installer automaticly accept the following Terms of Uses, Terms of conditions, EULA & Privacy Policies etc.
@@ -169,6 +218,8 @@
 * [Revo unistaller](https://www.revouninstaller.com/revo-uninstaller-privacy-policy/) (+winget package agreement)
 * Anydesk [1](https://anydesk.com/en/terms) [2](https://anydesk.com/en/data-processing-agreement)(+winget package agreement)
 * [Qbittorrent](https://github.com/qbittorrent/qBittorrent/wiki/Frequently-Asked-Questions) (+winget package agreement)
+* GitHub [1](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) [2](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+* [Winrar](https://www.win-rar.com/winrarlicense.html)
 ### The installer uses not offical Windows&Office activation!
-To disable Windows installation, change the product key in Settings. To disable Office activation, you need to run the command "irm https://get.activated.win | iex", select Ohook(2), then choose Uninstall Ohook(2).
-### The installer uses SpotX, which is a modified version of the official Spotify client, provided as an evaluation version, you use it at your own risk. To delete it, use [Uninstall-spotify](https://github.com/amd64fox/Uninstall-Spotify).
+To disable Windows activation, change the product key in Settings. To disable Office activation, run "I don't want Office activation.ps1", which can be found on the desktop after the installation finished. First you need to allow 
+### The installer uses SpotX, which is a modified version of the official Spotify client, provided as an evaluation version, you use it at your own risk. To delete it, use "Uninstall the mod from Spotify.bat" which can be found on the desktop after the installation finishes.

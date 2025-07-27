@@ -1,9 +1,43 @@
-# RAW link — IDE írd be a végleges URL-t, ha már megvan
-$url = "https://github.com/Bence0327/EclexOS/raw/refs/heads/main/Scripts/New%20scripts(1.0)/start2(server
-).bin"
+#NOTE I have no idea why this version is not working, while the v1(scripts\working scripts\Startmenu.customisation.v1.ps1) is working with the same concept
 
-# Célútvonal a LOCALAPPDATA alá
+# Giving the url to the .bin file
+$url = "https://github.com/Bence0327/EclexOS/raw/refs/heads/main/Scripts/New%20scripts(1.0)/start2(server).bin"
+
+# Put the .bin into the desired postition to change the start menu apps
 $destination = Join-Path $env:LOCALAPPDATA "Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\LocalState\start2.bin"
 
-# Letöltés és mentés
+# Download into the desires folder
 Invoke-WebRequest -Uri $url -OutFile $destination
+# SIG # Begin signature block
+# MIIFngYJKoZIhvcNAQcCoIIFjzCCBYsCAQExDzANBglghkgBZQMEAgEFADB5Bgor
+# BgEEAYI3AgEEoGswaTA0BgorBgEEAYI3AgEeMCYCAwEAAAQQH8w7YFlLCE63JNLG
+# KX7zUQIBAAIBAAIBAAIBAAIBADAxMA0GCWCGSAFlAwQCAQUABCBy+z2LxpGnsC5N
+# 2g3Ssze4Ep/qK/p6YQZ3M73PkilBF6CCAxAwggMMMIIB9KADAgECAhAWEAYYkd8H
+# iESrD1y+aYlmMA0GCSqGSIb3DQEBCwUAMB4xHDAaBgNVBAMME0VjbGV4T1NTY3Jp
+# cHRzc2lnbnMwHhcNMjUwNzI3MTMzMTA5WhcNMjYwNzI3MTM1MTA5WjAeMRwwGgYD
+# VQQDDBNFY2xleE9TU2NyaXB0c3NpZ25zMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+# MIIBCgKCAQEAlbtsjWapLx9pfhi9TvWtminFtTTmYB+EBwPAJRO9snnSv1R7Lm65
+# 1Ng1dNTwiDlCOLbzSUfBiGAxzGEFE8jD0WA0qRbf2RlUdgrmvcev3QEyNPUEbMtb
+# 4ZpB2BSa024zymeVKLXincZQ4vOqwjAsqILXfuZCsGRb1FVvtsOV6ecsVxwcaUPY
+# KxnHF740beYu0fqpTDxXhnkW97nWKQY1HizVNe1Ecs0ZUQII8mCJOPM7hiQ1/8kd
+# 0ypP/aJLQYdM4CQaD1VenncwuAXNYHR7MtvWa6qdfXWOXOCD2+JfjN5kZE0U5jQI
+# 2okKf+BKeNNlPoLN5AQATcgQPOulvXcRqQIDAQABo0YwRDAOBgNVHQ8BAf8EBAMC
+# B4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwHQYDVR0OBBYEFAi9GaeUp9QUOmkgLfBC
+# vaH8HIGWMA0GCSqGSIb3DQEBCwUAA4IBAQAGmmHlXPjX8SHA/dYG+K9wVnkqLt1t
+# vi2yIqIdgUhh3KnmWtW/PRl6MurbVfBRCODnEuzYKLtyAyIY09hmqEPMSG5oc65P
+# iq6HjdueVDvYBeG8ppkkTcZa9Yuz1eNEg5yZxu0HJFqaSxErlulmEOgA1ll2hHIw
+# YUTxPvdBpnVvkkw7KivkGqZwqMpv0gHtQCKM7fhZ7iQw2oxnRgVQZMgJWWzhM194
+# TVYeI4nFS5tx+aWw2VnH1pZ7nr8Ily+tJkaNSXJkk4jikGK8uPBxitRVAX3vVvx2
+# puo3Td8+9EKsESkNdb16DApM0XXz56wH8/gGPiI2uHtv5/tZJtXy83GuMYIB5DCC
+# AeACAQEwMjAeMRwwGgYDVQQDDBNFY2xleE9TU2NyaXB0c3NpZ25zAhAWEAYYkd8H
+# iESrD1y+aYlmMA0GCWCGSAFlAwQCAQUAoIGEMBgGCisGAQQBgjcCAQwxCjAIoAKA
+# AKECgAAwGQYJKoZIhvcNAQkDMQwGCisGAQQBgjcCAQQwHAYKKwYBBAGCNwIBCzEO
+# MAwGCisGAQQBgjcCARUwLwYJKoZIhvcNAQkEMSIEICVOWmBzulTcYyHIpu6ZENRV
+# HPudBD4pt7ygFokKo+NCMA0GCSqGSIb3DQEBAQUABIIBAFMwO02nbX3VoYqts2OP
+# vic/kjbcxQY7a3rFq4S0a9g2JuMfUwjpTf+NfiOvdwMtZKToBm7QAiVRK6lzwq/D
+# 5JJ5ZtzxBDGKwY7mMFXWb5Sn4+CXoNnzMkxtA3tm1XsOnGlDkCraeN3Uh4+GRd7y
+# PGtLAKmS4vnUZ+TD8w+J76xGVA4LAQNrEI9zDRtg7tM3KQLdi/niEnCzRxCiVF09
+# rgr3SrMaTgaY4Qzi0ohsHD+NjdJHMXVW+NFIj9n1bnbcFLVe+Ry8MFi7E63tSaGJ
+# oPEWdJuWRGFgBZ7Hg7sq1/FZZ7EyobgY5CE1ivTVgnQmOM2KeJR6b2/2LmeoOgm5
+# vow=
+# SIG # End signature block

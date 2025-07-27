@@ -1,0 +1,50 @@
+#Git installer script using winget
+winget install --id Git.Git --silent --accept-package-agreements --accept-source-agreements;
+
+#Just some placeholder coming. It's easier to me to make the scripts bigger, any sign them with just one script.
+# placeholder
+# placeholder
+# placeholder
+# placeholder
+# placeholder
+# placeholder
+# placeholder
+# placeholder
+# placeholder
+# placeholder
+# placeholder
+# placeholder
+# placeholder
+# SIG # Begin signature block
+# MIIFngYJKoZIhvcNAQcCoIIFjzCCBYsCAQExDzANBglghkgBZQMEAgEFADB5Bgor
+# BgEEAYI3AgEEoGswaTA0BgorBgEEAYI3AgEeMCYCAwEAAAQQH8w7YFlLCE63JNLG
+# KX7zUQIBAAIBAAIBAAIBAAIBADAxMA0GCWCGSAFlAwQCAQUABCBho/XWMD8h2HIl
+# /1Egc5i97x2QJWkPb7YCPtaaNE/QfqCCAxAwggMMMIIB9KADAgECAhAWEAYYkd8H
+# iESrD1y+aYlmMA0GCSqGSIb3DQEBCwUAMB4xHDAaBgNVBAMME0VjbGV4T1NTY3Jp
+# cHRzc2lnbnMwHhcNMjUwNzI3MTMzMTA5WhcNMjYwNzI3MTM1MTA5WjAeMRwwGgYD
+# VQQDDBNFY2xleE9TU2NyaXB0c3NpZ25zMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+# MIIBCgKCAQEAlbtsjWapLx9pfhi9TvWtminFtTTmYB+EBwPAJRO9snnSv1R7Lm65
+# 1Ng1dNTwiDlCOLbzSUfBiGAxzGEFE8jD0WA0qRbf2RlUdgrmvcev3QEyNPUEbMtb
+# 4ZpB2BSa024zymeVKLXincZQ4vOqwjAsqILXfuZCsGRb1FVvtsOV6ecsVxwcaUPY
+# KxnHF740beYu0fqpTDxXhnkW97nWKQY1HizVNe1Ecs0ZUQII8mCJOPM7hiQ1/8kd
+# 0ypP/aJLQYdM4CQaD1VenncwuAXNYHR7MtvWa6qdfXWOXOCD2+JfjN5kZE0U5jQI
+# 2okKf+BKeNNlPoLN5AQATcgQPOulvXcRqQIDAQABo0YwRDAOBgNVHQ8BAf8EBAMC
+# B4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwHQYDVR0OBBYEFAi9GaeUp9QUOmkgLfBC
+# vaH8HIGWMA0GCSqGSIb3DQEBCwUAA4IBAQAGmmHlXPjX8SHA/dYG+K9wVnkqLt1t
+# vi2yIqIdgUhh3KnmWtW/PRl6MurbVfBRCODnEuzYKLtyAyIY09hmqEPMSG5oc65P
+# iq6HjdueVDvYBeG8ppkkTcZa9Yuz1eNEg5yZxu0HJFqaSxErlulmEOgA1ll2hHIw
+# YUTxPvdBpnVvkkw7KivkGqZwqMpv0gHtQCKM7fhZ7iQw2oxnRgVQZMgJWWzhM194
+# TVYeI4nFS5tx+aWw2VnH1pZ7nr8Ily+tJkaNSXJkk4jikGK8uPBxitRVAX3vVvx2
+# puo3Td8+9EKsESkNdb16DApM0XXz56wH8/gGPiI2uHtv5/tZJtXy83GuMYIB5DCC
+# AeACAQEwMjAeMRwwGgYDVQQDDBNFY2xleE9TU2NyaXB0c3NpZ25zAhAWEAYYkd8H
+# iESrD1y+aYlmMA0GCWCGSAFlAwQCAQUAoIGEMBgGCisGAQQBgjcCAQwxCjAIoAKA
+# AKECgAAwGQYJKoZIhvcNAQkDMQwGCisGAQQBgjcCAQQwHAYKKwYBBAGCNwIBCzEO
+# MAwGCisGAQQBgjcCARUwLwYJKoZIhvcNAQkEMSIEICq8QtsxU63ZJK1FfFMfzW2e
+# SgaPVYMRbipGXevhiYHZMA0GCSqGSIb3DQEBAQUABIIBAID6YBlTJVSX3Fm48nvq
+# T8u7YlXyvU5jz0btFQiK2/KABv+zAi/Ag8AU1DGlGex+4zGIMilETxp0KtSBqXI7
+# Wwm5R2+RxuG68cKgPvb5fJ3G/FG3E4jilWkrbU5sNzXDndYufcFDmDPaK5vy15gK
+# QBB5YpBNNWBc3fN82t8NIZkOxYbZNxal9LEIHB0CpXFPV1v7O70Qj5FjXLJFZ/Hm
+# ckyY27qn2jmiR4Umm2AbGsAzcNQvze0giN6+w2prpCOiygSPY53J21SSsLBqUPJf
+# n51qk1jNDU+P0eaaQHwjfvmTPvBcT1mlf4U9grUrPE4Mq4EIfBgjRLNEiQGoQuUY
+# shk=
+# SIG # End signature block
