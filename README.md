@@ -1,12 +1,20 @@
-# EclexOS
+<p align="center">
+  <h1>EclexOS</h1>
+</p>
 
-## An automated custom windows installer, with countinous upgrades and more
+<p align="center">
+  <img src="logo.jpg" alt="EclexOS Logo" width="600"/>
+</p>
+
+<p align="center">
+  <h2>An automated custom Windows installer, with continuous upgrades and more</h2>
+</p>
 
 ### EclexOS is a small tool that makes Windows, faster, better, and stronger. With pre-made semi and fully automated installers it really helps to make Windows 11 a good choice for everyone without having a problem with customizing, installing or setting things up.
 
 ## It comes with features like
 * **4 different versions** - an OS for tech nerds, Gamers, Office PCs and Home Server builders
-* * **Customizable installers using [a third party tool](https://schneegans.de/windows/unattend-generator/)**
+  * **Customizable installers using [a third party tool](https://schneegans.de/windows/unattend-generator/)**
 * **Semi and fully automated installers** - automatic Windows installation, automatimatically installed apps, features and settings
 * **Bypassed Windows 11 requirements** - Windows 10 support is coming to an end. Update your Windows easily, make Windows 11 fast even on a low end pc.
 * **Foolproof installation** - an ISO file made for every OS type, just use Rufus to format the drive and that's it!
@@ -31,10 +39,10 @@
     * Create a bootable pendrive using the tool
     * Donwload the .xml file and copy it to your installation media
     * Boot from the pendrive, install the system and you're done! Thank you for using EclexOS! Even if it's a modified version!
-<!--  * **If you want to make your own installation and use the installer scripts only**
+* **If you want to make your own installation and use the installer scripts only**
     * Go to [https://schneegans.de/windows/unattend-generator/](https://schneegans.de/windows/unattend-generator/)
-    * Customize your installation (a list of the installer scripts will can be found in a cvs file) will be avaiable in version 1.0 stable
-    * Download the Media creation tool from [Microsoft's website](https://go.microsoft.com/fwlink/?linkid=2156295)
+    * Customize your installation (a list of the installer scripts will can be found in main as  raw.scriptlinks.cvs file)
+    * Download the Media creation tool from [here](https://go.microsoft.com/fwlink/?linkid=2156295)
     * Create a bootable pendrive using the tool
     * Donwload the .xml file and copy it to your installation media
     * Boot from the pendrive, install the system and you're done! Thank you for using EclexOS! Even if just a part of it! -->
@@ -213,11 +221,11 @@
 * VLC [1](https://www.videolan.org/legal.html) [2](https://en.vlc.de/license.php)
 * [MAS](https://github.com/massgravel/Microsoft-Activation-Scripts?tab=GPL-3.0-1-ov-file)
 * [Winget source agreement](https://learn.microsoft.com/en-us/windows/package-manager/)
-* [Discord](https://discord.com/terms/) (+winget package agreement)
-* [Gimp](https://www.gimp.org/docs/userfaq.html) (+winget package agreement)
-* [Revo unistaller](https://www.revouninstaller.com/revo-uninstaller-privacy-policy/) (+winget package agreement)
-* Anydesk [1](https://anydesk.com/en/terms) [2](https://anydesk.com/en/data-processing-agreement)(+winget package agreement)
-* [Qbittorrent](https://github.com/qbittorrent/qBittorrent/wiki/Frequently-Asked-Questions) (+winget package agreement)
+* [Discord](https://discord.com/terms/) (+winget source agreement)
+* [Gimp](https://www.gimp.org/docs/userfaq.html) (+winget source agreement)
+* [Revo unistaller](https://www.revouninstaller.com/revo-uninstaller-privacy-policy/) (+winget source agreement)
+* Anydesk [1](https://anydesk.com/en/terms) [2](https://anydesk.com/en/data-processing-agreement)(+winget source agreement)
+* [Qbittorrent](https://github.com/qbittorrent/qBittorrent/wiki/Frequently-Asked-Questions) (+winget source agreement)
 * GitHub [1](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) [2](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 * [Winrar](https://www.win-rar.com/winrarlicense.html)
 ### The installer uses not offical Windows&Office activation!

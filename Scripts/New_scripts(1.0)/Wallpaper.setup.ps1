@@ -1,11 +1,9 @@
 # Photo from Pixabay by Wortley (https://pixabay.com/photos/space-sky-nebula-darling-street-2543838/)
-# github link is coming in 1.0 beta version
-# $url = ''
-#$path = [System.IO.Path]::Combine([Environment]::GetFolderPath("MyPictures"), "wallpaper.jpg")
-#
-#Invoke-WebRequest -Uri $url -OutFile $path -UseBasicParsing -TimeoutSec 30
-#
-# Beállítás háttérképként
+$url = 'https://raw.githubusercontent.com/Bence0327/EclexOS/main/wallpaper.jpg'
+$path = [System.IO.Path]::Combine([Environment]::GetFolderPath("MyPictures"), "wallpaper.jpg")
+Invoke-WebRequest -Uri $url -OutFile $path -UseBasicParsing -TimeoutSec 30
+
+#Set as wallpaper
 Add-Type @"
 using System.Runtime.InteropServices;
 public class Wallpaper {
