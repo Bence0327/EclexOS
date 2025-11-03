@@ -12,16 +12,6 @@ public class Wallpaper {
 }
 "@
 [Wallpaper]::SystemParametersInfo(20, 0, $path, 3)
-
-# Beállítás háttérképként
-Add-Type @"
-using System.Runtime.InteropServices;
-public class Wallpaper {
-    [DllImport("user32.dll", SetLastError = true)]
-    public static extern bool SystemParametersInfo(int uAction, int uParam, string lpvParam, int fuWinIni);
-}
-"@
-[Wallpaper]::SystemParametersInfo(20, 0, $path, 3)
 # SIG # Begin signature block
 # MIIFngYJKoZIhvcNAQcCoIIFjzCCBYsCAQExDzANBglghkgBZQMEAgEFADB5Bgor
 # BgEEAYI3AgEEoGswaTA0BgorBgEEAYI3AgEeMCYCAwEAAAQQH8w7YFlLCE63JNLG

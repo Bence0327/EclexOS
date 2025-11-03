@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="logo.jpg" alt="EclexOS Logo" width="600"/>
+  <img src="logo.png" alt="EclexOS Logo" width="600"/>
 </p>
 
 <p align="center">
@@ -20,138 +20,177 @@
 * **Foolproof installation** - an ISO file made for every OS type, just use Rufus to format the drive and that's it!
 * **Official Microsoft Installer** - The ISOs are not edited, the official Microsoft Windows installer without any crap
 
-<!-- 3. pontként ide majd bejön a bemutató videó, ha az kész lesz valaha -->
+<!-- 3. Video, if i will have time for it:) -->
 
-## **Setup** - Create the installers and intsall Windows
-### Setup for pre-made installers
-  * Download the desired system .xml from relases (A little help to choose which version do you need can be found [at editions](#editions---what-edition-do-you-need-find-out-here))
-  * Download the Media creation tool from [Microsoft's website](https://go.microsoft.com/fwlink/?linkid=2156295)
-  * Create a bootable pendrive using the tool
-  * When completed, copy the contents of the .xml file downloaded from relases to your installation media
-  * Boot from the pendrive, install the system and you're done! Thank you for using EclexOS!
-### Setup for customized installation
-  * **If you want to customize a pre-made installer**
-    * Download the desired system .xml from relases (A little help to choose which version do you need can be found [at editions](#editions---what-edition-do-you-need-find-out-here))
-    * Go to [https://schneegans.de/windows/unattend-generator/](https://schneegans.de/windows/unattend-generator/)
-    * Import the .xml on this page
-    * Customize your installation (a list of the installer scripts will can be found in a cvs file, will be avaiable in version 1.1)
-    * Download the Media creation tool from [Microsoft's website](https://go.microsoft.com/fwlink/?linkid=2156295)
-    * Create a bootable pendrive using the tool
-    * Donwload the .xml file and copy it to your installation media
-    * Boot from the pendrive, install the system and you're done! Thank you for using EclexOS! Even if it's a modified version!
-* **If you want to make your own installation and use the installer scripts only**
-    * Go to [https://schneegans.de/windows/unattend-generator/](https://schneegans.de/windows/unattend-generator/)
-    * Customize your installation (a list of the installer scripts will can be found in main as  raw.scriptlinks.cvs file)
-    * Download the Media creation tool from [here](https://go.microsoft.com/fwlink/?linkid=2156295)
-    * Create a bootable pendrive using the tool
-    * Donwload the .xml file and copy it to your installation media
-    * Boot from the pendrive, install the system and you're done! Thank you for using EclexOS! Even if just a part of it! -->
+## Setup - Create the installers and install Windows
+<details>
+  <summary><strong>Setup for pre-made installers</strong></summary>
+
+  * Download the desired system .xml from releases (help choosing a version: [Editions](#editions---what-edition-do-you-need-find-out-here)).
+  * Download the Media Creation Tool from Microsoft's website: https://go.microsoft.com/fwlink/?linkid=2156295
+  * Create a bootable USB drive using the Media Creation Tool.
+  * Copy the contents of the downloaded .xml file to the root of your installation media.
+  * Boot from the USB drive and install the system. Thank you for using EclexOS!
+</details>
+
+<details>
+  <summary><strong>Setup for customized installation</strong></summary>
+
+  * Download the desired system .xml from releases (see [Editions](#editions---what-edition-do-you-need-find-out-here) for guidance).
+  * Open https://schneegans.de/windows/unattend-generator/ and import the .xml.
+  * Customize the installation options as needed (a list of installer scripts will be available in a CSV file in an upcoming release).
+  * Download the Media Creation Tool: https://go.microsoft.com/fwlink/?linkid=2156295
+  * Create a bootable USB drive using the tool.
+  * Download the customized .xml and copy it to the root of your installation media.
+  * Boot from the USB drive and install the system. Thank you for using EclexOS—even if it's a modified version!
+</details>
+
+<details>
+  <summary><strong>Make your own installation (use installer scripts only)</strong></summary>
+
+  * Go to https://schneegans.de/windows/unattend-generator/ and configure your desired unattended installation.
+  * Refer to the repository's raw.scriptlinks.csv (or the scripts list provided in main) for available installer scripts.
+  * Download the Media Creation Tool: https://go.microsoft.com/fwlink/?linkid=2156295
+  * Create a bootable USB drive using the tool.
+  * Download the generated .xml and copy it to the root of your installation media.
+  * Boot from the USB drive and install the system. Thank you for using parts of EclexOS!
+</details>
 
 ## **Editions** - What edition do you need? Find out here!
 ### **1. Minimal information** - A simple explanation for the editions
-* **1. Technerd edition**
-  * OS created especially for tech nerds
-    * Recommended for medium- and high-end PCs
-  * Comes preinstalled with many tools & features
-  * Debloated Windows
-  * Semi-automatic installation
-    * Drive formatting, language selection, computer name setup, local account creation, Wi-Fi configuration(if needed).
-  * Automatic Office & Windows activation
-  * Deleted Windows crap.
-* **2. Gamer edition**
-  * OS created for both gaming & school work
-    *  Recommended for console gamers who switched to PC and for gamers who don’t care, what is on their systems
-  *  Comes preinstalled with all the main  game launchers
-  *  Fully automatic installation
-     *  Language selection, drive formatting, and Wi-Fi configuration only.
-  *  Automatic Office & Windows activation
-  *  Deleted Windows crap.
-* **3. Brand edition**
-  * OS created for brand PCs & laptops
-    * Recommended for laptops/PCs that are just used for school/work.
-  * Good for laptops/PCs that just used for school/work.
-  * Fully automatic installation
-     *  Language selection, drive formatting, and Wi-Fi configuration only.
-  * Debloated Windows with some good features.
-  * Preinstalled web browser & Office(+Windows) with automatic activation.
-* **4. Homeserver edition**
-  * OS made for servers with graphical interface while using windows
-    * Recommended for refurbished Brand PCs that are being used for server tasks or for people who are beginners to use Linux or Windows server while they want their own server.
-  * Minimalistic UI
-  * Preinstalled with things you need to build a server
-  * Works perfectly on both low- and high-end computers either
-  *  Fully automatic installation
-     *  Language selection, drive formatting, and Wi-Fi configuration only.
-  * Automatic Windows activation
-  * Comes with none of Microsoft’s crap
+<details>
+  <summary><strong>1. Technerd edition</strong></summary>
+
+* OS created especially for tech nerds
+  * Recommended for medium- and high-end PCs
+* Comes preinstalled with many tools & features
+* Debloated Windows
+* Semi-automatic installation
+  * Drive formatting, language selection, computer name setup, local account creation, Wi-Fi configuration(if needed).
+* Automatic (unoffical) Office & Windows activation
+* Deleted Windows crap.
+</details>
+
+<details>
+  <summary><strong>2. Gamer edition</strong></summary>
+
+* OS created for both gaming & school work
+  *  Recommended for console gamers who switched to PC and for gamers who don’t care, what is on their systems
+*  Comes preinstalled with all the main  game launchers
+*  Fully automatic installation
+   *  Language selection, drive formatting, and Wi-Fi configuration only.
+*  Automatic (unoffical) Office & Windows activation
+*  Deleted Windows crap.
+</details>
+
+<details>
+  <summary><strong>3. Brand edition</strong></summary>
+
+* OS created for brand PCs & laptops
+  * Recommended for laptops/PCs that are just used for school/work.
+* Good for laptops/PCs that just used for school/work.
+* Fully automatic installation
+    *  Language selection, drive formatting, and Wi-Fi configuration only.
+* Debloated Windows with some good features.
+* Preinstalled web browser & Office(+Windows) with automatic (unoffical) activation.
+</details>
+
+<details>
+  <summary><strong>4. Testserver edition</strong></summary>
+
+* OS made for testing server projects while using windows
+  * Recommended for refurbished Brand PCs that are wanted to be used for server tasks and want to test things on Windows or for people who are beginners to use Linux or Windows server while they want their own homeserver.
+* Minimalistic UI
+* Preinstalled with things you need to build a server
+* Works perfectly on both low- and high-end computers either
+*  Fully automatic installation
+   *  Language selection, drive formatting, and Wi-Fi configuration only.
+* Automatic (unoffical) Windows activation
+* Comes with none of Microsoft’s crap
+</details>
 
 ### **2. Deep dive** - Dive into the small details
-* **1. Technerd edition**
-  * Main info
-    * OS created especially for tech nerds
-      * Recommended for medium- and high-end PCs
-      * Takes up around 55-60 GB of space
-  * Apps
-    * Deleted apps
-      * Bing, Clipchamp, Cortana, Family, Handwriting, Maps, News, Office(installed later), Skype, Solitaire, Sticky Notes, To-do, Weather, Windows Fax & Scan, Wordpad
-    * preinstalled apps
-      * Audacity, Aida64(stress test software), Brave, EA app, EGL, Git+Github desktop client, Handbrake(video converter), customized Office(Only in English & Hungarian), VSC, OBS studio, Roblox, Spotify(modded by SpotX), Steam, VLC, Winrar, Teamviewer, (note that the following apps will only be installed on Win11 24H2 systems!) Discord, Gimp, Revo Uninstaller, Anydesk, Qbittorrent
-  * Customisation
-    * Comes with the best UI, Hidden search bar, All icons hidden, Widgets hidden, Long paths enabled, Automatic dark theme, Left aligned taskbar, Removed task view button, Classic context menu(Win 10 right click).
-  * Installation
-    * Semi automated installer - You have to select language, format the disks, give a computer name, create a local account, configure Wi-Fi.
-  * Features
-    * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows & Office activated automaticaly (Using HWID and Ohook).
-    * More coming soon! (read more [at upcoming features](#upcoming-features))
-* **2. Gamer edition**
-  * Main info
-    * OS created for both gaming & school work
-      *  Recommended for console gamers who switched to PC and for gamers who don’t care, what is on their systems.
-      * Takes up around 50 GB of space
-  * Apps
-    * Deleted apps
-      * Bing, Clipchamp, Cortana, Family, Handwriting, Maps, News, Office(installed later), Power automate, Powershell ISE, Skype, Solitaire, Steps recorder, Sticky notes, To-do, Weather, Windows Fax & Scan, Wordpad
-    * preinstalled apps
-      * Aida64(stress test software) Brave, EA app, EGL, Office(installed in system's language) OBS studio, Roblox, Spotify(modded by SpotX), Steam, Rockstargames launcher, VLC, Winrar, (note that the following apps will only be installed on Win11 24H2 systems!) Discord, Revo Uninstaller, Qbittorrent
-  * Customisation
-    * Comes with the best UI, Hidden search bar, All icons hidden, Widgets hidden, Long paths enabled, Automatic dark theme, Left aligned taskbar, Removed task view button, Classic context menu(Win 10 right click).
-  * Installation
-    * Fully automated installer - You have to select language and format the drives.
-  * Features
-    * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows & Office activated automaticaly (Using HWID and Ohook).
-    * More coming soon! (read more [at upcoming features](#upcoming-features))
-* **3. Brand edition**
-  * Main info
-    * OS created for brand PCs & laptops
-      * Recommended for laptops/PCs that are just used for school/work.
-    * Takes up around 46 GB of space
-  * Apps
-    * Deleted apps
-      * Bing, Clipchamp, Cortana, Family, Maps, News, Office(installed later), Power automate, Powershell ISE, Skype, Solitaire, Steps recorder, Sticky notes, To-do, Weather, Windows Fax & Scan, Wordpad, Xbox app
-    * preinstalled apps
-      * Aida64(stress test software), Brave, Office(installed in system's language), Spotify (modded by SpotX), VLC, Winrar, Revo uninstaller(note that Revo Uninstaller will only be installed on Win11 24H2 systems!)
-  * Installation
-    * Fully automated installer - You have to select language and format the drives.
-  * Features
-    * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows & Office activated automaticaly (Using HWID and Ohook).
-    * More coming soon! (read more [at upcoming features](#upcoming-features))
-* **4. Homeserver edition**
-  * Main info
-    * OS made for servers with graphical interface while using windows
-      * Recommended for refurbished brand PCs that are being used for servers tasks or for people who are beginners and don't want to use Linux or Windows server and want their own server at the same time.
-    * **NOTE**
-      * This OS is not suitable for everyday use! This is a very tiny version of Windows and it'll give an almost unusable experience!
-    * Takes up around 40 GB of space
-  * Apps
-    * Deleted apps
-      * 3D viewer, Bing, Calculator, Camera, Clipchamp, Copilot, Cortana, Family, Handwriting, Mail&calendar, Maps, Math input panel, Mixed reality, Movies&TV, News, Notepad, Office(Onedrive can be instlalled manually), Outlook, Paint, Paint 3D, Photos, Powershell ISE, Skype, Solitaire, Steps Recorder, Snipping tool, Sticky notes, Teams, To-do, Voice recorder, Wallet, Weather, Windows Fax & Scan, Windows Hello, Wordpad, Xbox app, Phone link
-    * preinstalled apps
-      * Aida64(stress test software), Brave, HAndbrake(video converter), Teamviewer, VLC, Winrar (note that the following apps will only be installed on Win11 24H2 systems!) Qbittorrent, Revo uninstaller, Anydesk
-  * Installation
-    * Fully automated installer - You have to select language and format the drives.
-  * Features
-    * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows is activated automaticaly (Using HWID).
-    * More coming soon! (read more [at upcoming features](#upcoming-features))
+<details>
+  <summary><strong>1. Technerd edition</strong></summary>
+
+* Main info
+  * OS created especially for tech nerds
+    * Recommended for medium- and high-end PCs
+    * Takes up around 55-60 GB of space
+* Apps
+  * Deleted apps
+    * Bing, Clipchamp, Cortana, Family, Handwriting, Maps, News, Office(installed later), Skype, Solitaire, Sticky Notes, To-do, Weather, Windows Fax & Scan, Wordpad
+  * preinstalled apps
+    * Audacity, Brave, EA app, EGL, Git+Github desktop client, Handbrake(video converter), Heavyload(stress test software), customized Office(Only in English & Hungarian), VSC, OBS studio, Roblox, Spotify(modded by SpotX), Steam, VLC, Winrar, Teamviewer, (note that the following apps will only be installed on Win11 24H2 systems!) Discord, Gimp, Revo Uninstaller, Anydesk, Qbittorrent
+* Customisation
+  * Comes with the best UI, Hidden search bar, All icons hidden, Widgets hidden, Long paths enabled, Automatic dark theme, Left aligned taskbar, Removed task view button, Classic context menu(Win 10 right click).
+* Installation
+  * Semi automated installer - You have to select language, format the disks, give a computer name, create a local account, configure Wi-Fi.
+* Features
+  * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows & Office activated automaticaly (Using HWID and Ohook).
+  * More coming soon! (read more [at upcoming features](#upcoming-features))
+</details>
+
+<details>
+  <summary><strong>2. Gamer edition</strong></summary>
+
+* Main info
+  * OS created for both gaming & school work
+    *  Recommended for console gamers who switched to PC and for gamers who don’t care, what is on their systems.
+    * Takes up around 50 GB of space
+* Apps
+  * Deleted apps
+    * Bing, Clipchamp, Cortana, Family, Handwriting, Maps, News, Office(installed later), Power automate, Powershell ISE, Skype, Solitaire, Steps recorder, Sticky notes, To-do, Weather, Windows Fax & Scan, Wordpad
+  * preinstalled apps
+    * Brave, EA app, EGL, Heavyload(stress test software), Office(installed in system's language) OBS studio, Roblox, Spotify(modded by SpotX), Steam, Rockstargames launcher, VLC, Winrar, (note that the following apps will only be installed on Win11 24H2 systems!) Discord, Revo Uninstaller, Qbittorrent
+* Customisation
+  * Comes with the best UI, Hidden search bar, All icons hidden, Widgets hidden, Long paths enabled, Automatic dark theme, Left aligned taskbar, Removed task view button, Classic context menu(Win 10 right click).
+* Installation
+  * Fully automated installer - You have to select language and format the drives.
+* Features
+  * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows & Office activated automaticaly (Using HWID and Ohook).
+  * More coming soon! (read more [at upcoming features](#upcoming-features))
+</details>
+
+<details>
+  <summary><strong>3. Brand edition</strong></summary>
+
+* Main info
+  * OS created for brand PCs & laptops
+    * Recommended for laptops/PCs that are just used for school/work.
+  * Takes up around 46 GB of space
+* Apps
+  * Deleted apps
+    * Bing, Clipchamp, Cortana, Family, Maps, News, Office(installed later), Power automate, Powershell ISE, Skype, Solitaire, Steps recorder, Sticky notes, To-do, Weather, Windows Fax & Scan, Wordpad, Xbox app
+  * preinstalled apps
+    * Aida64(stress test software), Brave, Office(installed in system's language), Spotify (modded by SpotX), VLC, Winrar, Revo uninstaller(note that Revo Uninstaller will only be installed on Win11 24H2 systems!)
+* Installation
+  * Fully automated installer - You have to select language and format the drives.
+* Features
+  * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows & Office activated automaticaly (Using HWID and Ohook).
+  * More coming soon! (read more [at upcoming features](#upcoming-features))
+</details>
+
+<details>
+  <summary><strong>4. Testserver edition</strong></summary>
+
+* Main info
+  * OS made for servers with graphical interface while using windows
+    * Recommended for refurbished brand PCs that are being used for servers tasks or for people who are beginners and don't want to use Linux or Windows server and want their own server at the same time.
+  * **NOTE**
+    * This OS is not suitable for everyday use! This is a very tiny version of Windows and it'll give an almost unusable experience!
+  * Takes up around 40 GB of space
+* Apps
+  * Deleted apps
+    * 3D viewer, Bing, Calculator, Camera, Clipchamp, Copilot, Cortana, Family, Handwriting, Mail&calendar, Maps, Math input panel, Mixed reality, Movies&TV, News, Notepad, Office(Onedrive can be instlalled manually), Outlook, Paint, Paint 3D, Photos, Powershell ISE, Skype, Solitaire, Steps Recorder, Snipping tool, Sticky notes, Teams, To-do, Voice recorder, Wallet, Weather, Windows Fax & Scan, Windows Hello, Wordpad, Xbox app, Phone link
+  * preinstalled apps
+    * Aida64(stress test software), Brave, HAndbrake(video converter), Teamviewer, VLC, Winrar (note that the following apps will only be installed on Win11 24H2 systems!) Qbittorrent, Revo uninstaller, Anydesk
+* Installation
+  * Fully automated installer - You have to select language and format the drives.
+* Features
+  * Debloated Windows, Password won't expire, Bitlocker is disabled, No bing results in the searching bar, Offline account creation(manually), file extensions always showed, File explorer opent with *This pc*, build in *End task* button in the taskbar,  Hidden files can be seen by default, Hidden Edge's *First run experience*, Compact OS option disabled, Edge is uninstallable(both in an out of GDPR countries), Edge won't start with Windows by default, local account created, Windows is activated automaticaly (Using HWID).
+  * More coming soon! (read more [at upcoming features](#upcoming-features))
+</details>
 
 ## Upcoming features
 ### Near future plans
@@ -163,10 +202,10 @@
 * Ad video
 * Automatic driver installer
 * Optional Plex and Jellyfin installer for Server edition
-* More apps preinstalled(waiting for suggestions)
-* Cutsom UI
-* Pinned icons - See more at **"Scripts\Non working scripts"**
-* Custom Start menu ikons - See more at **"Scripts\Non working scripts"**
+* More apps preinstalled(waiting for [suggestions](https://github.com/Bence0327/EclexOS/issues/new/choose))
+* Cutsom UI(searching for custom themes)
+* Pinned icons - I couldn'T solve it, if you want to try see more at **"Scripts\Non working scripts"**
+* Custom Start menu ikons - I couldn'T solve it, if you want to try see more at **"Scripts\Non working scripts"**
 
 ## **Changelog 1.0 beta **
 * [Montsterrat (font)](https://fonts.google.com/specimen/Montserrat)comes preinstalled
@@ -189,8 +228,14 @@
 * Custom power plan
 * Custom computer name created while installing(Server, Brand, and Gamer edition)
 * Picture downloader and modifier script for wallpaper setup created(haven't been used)
-
-<!--## Troubleshooting-->
+* Anydesk installer deleted - Rustdesk takes up th place of it
+* Teamviewer installer deleted - Rustdesk takes up th place of it
+* AIDA64 installer deleted - Heavyload takes up th place of it
+* Singalrgb installer added to technerd ang gamer editions
+Fancontroll installer added to technerd and gamer editions
+* Rustedesk installer added
+* Heavyload installer added to technerd and gamer editions
+<!--## Troubleshooting - no troubles found yet-->
 
 ## Known issues
 * If you modfiy an ISO, it won't work with Ventoy(using the xml with Ventoy haven't benn tested)
@@ -228,6 +273,12 @@
 * [Qbittorrent](https://github.com/qbittorrent/qBittorrent/wiki/Frequently-Asked-Questions) (+winget source agreement)
 * GitHub [1](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) [2](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 * [Winrar](https://www.win-rar.com/winrarlicense.html)
+
+### You are using this installer at your own risk and agree to the installed apps Terms of Uses, Terms of conditions, EULA & Privacy Policies etc.
+### The creator of this installer is not responsible for any damage caused by using this installer.
+### By using this installer you agree that you have read and understood this disclaimer and you agree to use the following 
 ### The installer uses not offical Windows&Office activation!
-To disable Windows activation, change the product key in Settings. To disable Office activation, run "I don't want Office activation.ps1", which can be found on the desktop after the installation finished. First you need to allow 
-### The installer uses SpotX, which is a modified version of the official Spotify client, provided as an evaluation version, you use it at your own risk. To delete it, use "Uninstall the mod from Spotify.bat" which can be found on the desktop after the installation finishes.
+  * To disable Windows activation, change the product key in Settings.
+  * To disable Office activation, run "I don't want Office activation.ps1", which can be found on the desktop after the installation finished.
+### The installer uses SpotX, which is a modified version of the official Spotify client, provided as an evaluation version, you use it at your own risk.
+  * To delete it, use "Uninstall the mod from Spotify.bat" which can be found on the desktop after the installation finishes. You don't have to reinstall Spotify after runnig the script.
