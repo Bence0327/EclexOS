@@ -1,8 +1,4 @@
 <p align="center">
-  <h1>EclexOS</h1>
-</p>
-
-<p align="center">
   <img src="logo.png" alt="EclexOS Logo" width="600"/>
 </p>
 
@@ -119,11 +115,11 @@
     * Takes up around 55-60 GB of space
 * Apps
   * Deleted apps
-    * Bing, Clipchamp, Cortana, Family, Handwriting, Maps, News, Office(installed later), Skype, Solitaire, Sticky Notes, To-do, Weather, Windows Fax & Scan, Wordpad
+    * Bing, Clipchamp, Cortana, Family, Handwriting, Maps, News, Office(installed later), Skype, Solitaire, Sticky Notes, To-do, Weather, Windows Fax & Scan, Wordpad, Recall
   * preinstalled apps
     * Audacity, Brave, EA app, EGL, Git+Github desktop client, Handbrake(video converter), Heavyload(stress test software), customized Office(Only in English & Hungarian), VSC, OBS studio, Roblox, Spotify(modded by SpotX), Steam, VLC, Winrar, Teamviewer, (note that the following apps will only be installed on Win11 24H2 systems!) Discord, Gimp, Revo Uninstaller, Anydesk, Qbittorrent
 * Customisation
-  * Comes with the best UI, Hidden search bar, All icons hidden, Widgets hidden, Long paths enabled, Automatic dark theme, Left aligned taskbar, Removed task view button, Classic context menu(Win 10 right click).
+  * Comes with the best UI, Hidden search bar, All icons hidden, Widgets hidden, Long paths enabled, Automatic dark theme, Left aligned taskbar, Removed task view button, Classic context menu(Win 10 right click), 'remotesigned' execution, sticky keys disabled, Microsoft data stoling is disabled(by modifying in regedit).
 * Installation
   * Semi automated installer - You have to select language, format the disks, give a computer name, create a local account, configure Wi-Fi.
 * Features
@@ -144,7 +140,7 @@
   * preinstalled apps
     * Brave, EA app, EGL, Heavyload(stress test software), Office(installed in system's language) OBS studio, Roblox, Spotify(modded by SpotX), Steam, Rockstargames launcher, VLC, Winrar, (note that the following apps will only be installed on Win11 24H2 systems!) Discord, Revo Uninstaller, Qbittorrent
 * Customisation
-  * Comes with the best UI, Hidden search bar, All icons hidden, Widgets hidden, Long paths enabled, Automatic dark theme, Left aligned taskbar, Removed task view button, Classic context menu(Win 10 right click).
+  * Comes with the best UI, Hidden search bar, All icons hidden, Widgets hidden, Long paths enabled, Automatic dark theme, Left aligned taskbar, Removed task view button, Classic context menu(Win 10 right click), sticky keys disabled, Microsoft data stoling is disabled(by modifying in regedit).
 * Installation
   * Fully automated installer - You have to select language and format the drives.
 * Features
@@ -232,15 +228,17 @@
 * Teamviewer installer deleted - Rustdesk takes up th place of it
 * AIDA64 installer deleted - Heavyload takes up th place of it
 * Singalrgb installer added to technerd ang gamer editions
-Fancontroll installer added to technerd and gamer editions
+* Fancontroll installer added to technerd and gamer editions
 * Rustedesk installer added
 * Heavyload installer added to technerd and gamer editions
+* Repository tree modified for better understanding and easier navigation
+
 <!--## Troubleshooting - no troubles found yet-->
 
 ## Known issues
-* If you modfiy an ISO, it won't work with Ventoy(using the xml with Ventoy haven't benn tested)
+* If you modfiy an ISO, it won't work with Ventoy(using the xml with Ventoy haven't been tested)
 * You have to choose the language, keyboard & region(autounattend.xml does not support automatic selection, it can't inport the installer's settings)
-* Some scripts haven't been signed
+* Some scripts are signed, some are not(because I need a new base sample fro the new tree structure to have all scripts in the same format, fix coming in 1.0 stable)
 
 ## Used projects
 * To automate the windows installation with the .xml file, EclexOS uses [Christoph Schneegans's autounattend .xml generator](https://schneegans.de/windows/unattend-generator/)
