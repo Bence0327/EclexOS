@@ -1,3 +1,4 @@
+#Giving the place and files that is needed
 $baseUrl = "https://github.com/google/fonts/raw/main/ofl/poppins/"
 $fontNames = @(
     "Poppins-Thin.ttf", "Poppins-ThinItalic.ttf",
@@ -11,9 +12,11 @@ $fontNames = @(
     "Poppins-Black.ttf", "Poppins-BlackItalic.ttf"
 )
 
+#Creating a temp folder
 $tempDir = Join-Path $env:TEMP "PoppinsFont"
 New-Item -ItemType Directory -Path $tempDir -Force | Out-Null
 
+# Installing Poppins
 foreach ($fontFile in $fontNames) {
     $url = "$baseUrl$fontFile"
     $local = Join-Path $tempDir $fontFile
@@ -23,4 +26,5 @@ foreach ($fontFile in $fontNames) {
         -Name $fontFile -PropertyType String -Value $fontFile -Force
 }
 
+#Deleting temp folder
 Remove-Item -Path $tempDir -Recurse -Force

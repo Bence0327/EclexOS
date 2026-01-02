@@ -14,7 +14,7 @@ if (Test-Path $regKey) {
         Remove-Item -Path $regKey -Force
     }
 
-    Write-Host "A zárolási képernyő beállításai visszaállítva. A felhasználó újra módosíthatja a képet."
+    Write-Host "Lockscreen settings has been resetted. You can set your own lockscreen backround now."
 } else {
-    Write-Warning "A registry kulcs nem található. Lehet, hogy már törölve lett."
+    Write-Warning "Registry key cannot be found. It may have already been deleted. Try setting the lockscreen backround."
 }

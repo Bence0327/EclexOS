@@ -1,3 +1,4 @@
+#Creating temp folder
 $tempDir = Join-Path $env:TEMP "MontserratFont"
 New-Item -ItemType Directory -Path $tempDir -Force | Out-Null
 

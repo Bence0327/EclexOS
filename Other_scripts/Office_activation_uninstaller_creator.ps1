@@ -1,5 +1,5 @@
 # GitHub raw link to the uninstaller(not ready)
-$url = "https://raw.githubusercontent.com/Bence0327/EclexOS/refs/heads/main/Scripts/New%20scripts(1.0)/Uninstallofficeactivation.ps1"
+$url = "https://raw.githubusercontent.com/Bence0327/EclexOS/refs/heads/main/Installer_scripts/Uninstallers/Uninstall_office_activation.ps1"
 
 # Giving the place and name to download the script
 $filename = "I don't need Office activation.ps1"

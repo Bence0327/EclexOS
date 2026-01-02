@@ -1,4 +1,7 @@
+#Giving the source path (uses the place of the picture from Wallpaper.setup.ps1)
 $sourcePath = [System.IO.Path]::Combine([Environment]::GetFolderPath("MyPictures"), "wallpaper.jpg")
+
+Path of the lockscreen
 $lockScreenPath = "C:\Windows\Web\Screen\wallpaper.jpg"
 
 # Copy to systemfolder

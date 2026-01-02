@@ -3,8 +3,8 @@ $downloadsFolder = [System.IO.Path]::Combine($env:USERPROFILE, "Downloads", "Off
 $xmlFile = "$downloadsFolder\Configuration.xml"
 $setupExe = "$downloadsFolder\setup.exe"
 
-# The XML file can be found on GitHub
-$xmlDownloadUrl = "https://raw.githubusercontent.com/Bence0327/EclexOS/refs/heads/main/XML/OfficeConfiguration.xml"
+# The XML file can be found on EclexOS's GitHub repo
+$xmlDownloadUrl = "https://raw.githubusercontent.com/Bence0327/EclexOS/refs/heads/main/Installer_scripts/OfficeConfiguration.xml"
 $setupDownloadUrl = "https://officecdn.microsoft.com/pr/wsus/setup.exe"
 
 # Creating the downloads folder in case it doesn't exist - only needed when installing with Windows
