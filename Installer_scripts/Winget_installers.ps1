@@ -111,13 +111,13 @@ function Install-Category {
     }
 }
 
-# ALL → minden kategória
+# ALL -> installs everything
 if ($all) {
     Install-Category "all"
     exit
 }
 
-# Egyedi editionök
+# Edition specific installers
 if ($technerd)   { Install-Category "technerd" }
 if ($gamer)      { Install-Category "gamer" }
 if ($brand)      { Install-Category "brand" }

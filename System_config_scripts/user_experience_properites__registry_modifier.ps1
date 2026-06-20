@@ -9,4 +9,4 @@ if (-not (Test-Path $regPath)) {
 # Setting the AllowTelemetry registy to 0 (DWORD)
 New-ItemProperty -Path $regPath -Name "AllowTelemetry" -PropertyType DWord -Value 0 -Force
 
-Write-Output "AllowTelemetry beállítva 0-ra a következő kulcsban: $regPath"
+Write-Output "AllowTelemetry has been set to 0 in the registry: $regPath"

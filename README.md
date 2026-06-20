@@ -44,16 +44,16 @@
 <!---<details>
 <summary><strong>Trying out EclexOS using VirtualBox</strong></summary>
 
-*Download the VMs.zip from relaeses.
-*Download and install [VirtualBox](https://www.virtualbox.org/).
-*Download a Windows 11 iso from [Microsoft's webstie](https://www.microsoft.com/en-us/software-download/windows11).
-*Open VirtualBox and create a new virtual machine. Insert the downloaded Windows 11 iso as the installation media. Turn off unattended install. Do not start the VM yet.
-*After VM created add the VirtualBox Guest Additions as an aditional virtual optical drive to the VM.
-*Excract the VMs.zip to any folder.
-*Put the desired edition's autounattend.iso file as an aditional virtual optical drive to the VM.
-Start the VM and install EclexOS. Boot fromm the Windows iso by pressing any key when the prompt appears.
-*The installer will use EclexOS's autounattend.xml.
-*If you want to try out other editions, you have to repeat the VM creating process.
+* Download the VMs.zip from relaeses.
+* Download and install [VirtualBox](https://www.virtualbox.org/).
+* Download a Windows 11 iso from [Microsoft's webstie](https://www.microsoft.com/en-us/software-download/windows11).
+* Open VirtualBox and create a new virtual machine. Insert the downloaded Windows 11 iso as the installation media. Turn off unattended install. Do not start the VM yet.
+* After VM created add the VirtualBox Guest Additions as an aditional virtual optical drive to the VM.
+* Excract the VMs.zip to any folder.
+* Put the desired edition's autounattend.iso file as an aditional virtual optical drive to the VM.
+* Start the VM and install EclexOS. Boot fromm the Windows iso by pressing any key when the prompt appears.
+* The installer will use EclexOS's autounattend.xml.
+* If you want to try out other editions, you have to repeat the VM creating process.
 </details>-->
 
 <details>
