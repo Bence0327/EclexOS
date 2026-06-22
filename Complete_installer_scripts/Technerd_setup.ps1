@@ -20,7 +20,7 @@ Invoke-WebRequest -Uri "https://github.com/Bence0327/EclexOS/raw/refs/heads/main
 Invoke-WebRequest -Uri "https://github.com/Bence0327/EclexOS/raw/refs/heads/main/Installer_scripts/SpotX_installer.ps1" -UseBasicParsing | Invoke-Expression
 
 # Installing winget apps (check README for additional info) [test version for using winget, not tested]
-& { Invoke-WebRequest -Uri "https://github.com/Bence0327/EclexOS/raw/refs/heads/main/Installer_scripts/Winget_installers.ps1" -UseBasicParsing }.Content | Invoke-Expression -technerd
+& ([scriptblock]::Create((Invoke-WebRequest -Uri "https://github.com/Bence0327/EclexOS/raw/refs/heads/main/Installer_scripts/Winget_installers.ps1" -UseBasicParsing).Content)) -technerd
 
 # Setting custom EclexOS power plan
 Invoke-WebRequest -Uri "https://github.com/Bence0327/EclexOS/raw/refs/heads/main/System_config_scripts/Custom_powerplan.ps1" -UseBasicParsing | Invoke-Expression

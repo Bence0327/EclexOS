@@ -107,7 +107,7 @@ function Install-Category {
     param($categoryName)
 
     foreach ($app in $Categories[$categoryName]) {
-        winget install $app --silent
+        winget install $app --silent --source winget --accept-package-agreements --accept-source-agreements
     }
 }
 
